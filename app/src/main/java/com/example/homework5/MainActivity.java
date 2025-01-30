@@ -29,10 +29,9 @@ public class MainActivity extends AppCompatActivity {
     public void Albert(View view) {
         growUp++;
         tv.setText("This is a click number: "+growUp);
-        if(growUp==6)
+        if(growUp%7==0)
         {
-            tv.setText("Enough to click. Go to new start!");
-            growUp = 0;
+            tv.setText("Boom!");
         }
     }
 }

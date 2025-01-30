@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         tv.findViewById(R.id.tv);
 
         growUp = 0;
+
     }
 
     public void Albert(View view) {
